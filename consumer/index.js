@@ -1,5 +1,5 @@
 const express  = require('express');
-const connectQueue = require('./basic_receiver');
+const connectQueue = require('./pubSubModel-receiver');
 const app = express();
 const PORT = 4000;
 const setUpServer = ()=>{
